@@ -1,7 +1,7 @@
 :root {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
 }
-
 * {
   margin:0;
   padding: 0;
@@ -22,18 +22,47 @@ body{
   margin-bottom: 20px;
 }
 .titulo h1{
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 800;
 }
-
 .titulo h2{
   font-size: 2.5rem;
   font-weight: 400;
-  margin: -15px 0 10px 0;
+  margin: -10px 0 10px 0;
 }
 .titulo p{
   font-weight: 400;
 }
+.imagem-cabecalho{}
 
-.texto-principal{
-  margin: 50px 0;
+.introducao{
+  margin: 30px 0;
 }
+.introducao h4{
+  margin-bottom: 10px ;
+}
+
+.formas-de-pagamento{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.formas-de-pagamento h4{
+  font-size: 1.0rem;
+  margin-bottom: 10px;
+}
+.banco{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.imagem-banco{
+  margin: 40px 0;
+}
+.banco-subtitulo{
+  text-align: center;
+}
+.banco-botao-cpnj{
+  margin: 20px 0;
+}
+
