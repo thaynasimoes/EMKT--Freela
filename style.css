@@ -1,11 +1,15 @@
 :root {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
+
+  --green: #0E5236;
+  --light-green: #D8EBCF;
+  --dark-green: #043936;
 }
 * {
   margin:0;
   padding: 0;
-  color: #043936;
+  color: var(--dark-green);
 }
 b{
   
@@ -63,6 +67,62 @@ body{
   text-align: center;
 }
 .banco-botao-cpnj{
-  margin: 20px 0;
+  margin: 20px 120px;
+  padding: 10px 20px;
+background-color: var(--light-green);
+  border-radius: 10px;
 }
 
+
+
+.botao-green{
+  color: #ffff;
+  padding: 15px 40px;
+  background-color: var(--green);
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.acesse-nosso-site{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.acesse-nosso-site p{
+  font-weight: 600;
+  border: 1px solid var(--light-green);
+  padding: 20px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  
+}
+
+.acesse-nosso-site a{
+  font-size: 1.2rem;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+.contatos{
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.contatos div .botao-green{
+  
+}
+.contatos-ramal{
+  display: flex;
+  align-items: center;
+}
+.contatos-ramal-ramais{
+  display: flex;
+  flex-flow: column;
+  border: 1px solid var(--green);
+  padding: 4.5px 20px;
+  padding-left: 55px;
+  border-radius: 30px;
+  margin-left: -50px;
+}
