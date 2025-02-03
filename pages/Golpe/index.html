@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>EMKT</title>
+    <style>
+        :root {
+      font-family: Arial, "Raleway";
+      font-weight: 500;
+      font-size: 1rem;
+    
+      --green: #0E5236;
+      --light-green: #D8EBCF;
+      --dark-green: #043936;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      color: var(--dark-green);
+    }
+    b {
+      
+    }
+    .background-image {
+      background-image: url("https://accamargo.org.br/sites/default/files/2024/10/background-line.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    
+    }
+    
+    body {
+      padding: 0 1.25rem;
+    }
+    
+    .cabecalho {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.25rem;
+      padding-top: 3.125rem;
+      font-family: "Raleway", Arial;
+    }
+    .titulo h1 {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+    .titulo h2 {
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin: -0.625rem 0 0.625rem 0;
+    }
+    .titulo p {
+      font-weight: 400;
+      padding-top: 0.8rem;
+    }
+    
+    
+    .introducao {
+      margin: 1.875rem 0;
+    }
+    .introducao h4 {
+      margin-bottom: 0.625rem;
+    }
+    .introducao p {
+      font-size: 0.9rem;
+    }
+    
+    .formas-de-pagamento {
+      display: flex;
+      flex-direction: column;
+      gap: 0.9375rem;
+    }
+    .formas-de-pagamento h4 {
+      font-size: 1rem;
+      margin-bottom: 0.625rem;
+    }
+    .banco {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }
+    .imagem-banco {
+      margin: 2.5rem 0;
+    }
+    .banco-subtitulo {
+      text-align: center;
+      
+    
+    }
+    
+    .banco-botao-cnpj {
+      margin: 1.25rem 6rem;
+      padding: 0.625rem 1rem;
+      background-color: var(--light-green);
+      border-radius: 0.625rem;
+    }
+    
+    .botao-green {
+      color: #ffff;
+      padding: 0.9375rem 2.5rem;
+      background-color: var(--green);
+      text-decoration: none;
+      border-radius: 1.875rem;
+    }
+    
+    
+    .acesse-nosso-site {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      margin-bottom: 1.875rem;
+    }
+    
+    .acesse-nosso-site p {
+      font-weight: 600;
+      border: 1px solid var(--light-green);
+      padding: 1.25rem;
+      padding-bottom: 1.875rem;
+      border-radius: 0.625rem;
+    
+    }
+    
+    .acesse-nosso-site a {
+      font-size: 1.2rem;
+      margin-top: -0.9375rem;
+      margin-bottom: 1.25rem;
+      transition: transform 0.3s ease;
+    }
+    .acesse-nosso-site a:hover {
+    transform: scale(1.1);
+}
+    
+    .contatos {
+      display: flex;
+      flex-direction: column;
+      gap: 1.55rem;
+    }
+    
+    .contatos div .botao-green {
+      
+    }
+    
+    .contatos-ramal {
+      display: flex;
+      align-items: center;
+    }
+    
+    .contatos-ramal-ramais {
+      display: flex;
+      flex-flow: column;
+      border: 1px solid var(--green);
+      padding: 0.65rem 1.25rem;
+      padding-left: 3.4375rem;
+      border-radius: 1.875rem;
+      margin-left: -3.125rem;
+    }
+    .contatos-ramal-ramais b{
+      font-size: 0.7rem;
+    }
+    
+    #ramais{
+      font-size: 0.7rem;
+    }
+    
+    .contatos-TBM {
+      display: flex;
+      align-items: center;
+    }
+    
+    .contatos-telefone-whatsapp {
+      display: flex;
+      flex-flow: column nowrap;
+      border: 1px solid var(--green);
+      padding: 0.65rem 1.25rem;
+      padding-left: 3.4375rem;
+      border-radius: 1.875rem;
+      margin-left: -3.125rem;
+      font-size: 0.7rem;
+    
+      @media (max-width: 487px ){
+        font-size: 0.7rem ;
+      }
+    }
+    footer{
+      position: absolute;
+      left: 0;
+      right: 0;
+    }
+    
+    </style>
+</head>
+
+
+<body>
+    <div class="background-image">
+    <header class="cabecalho">
+        <div class="titulo">
+            <h1>Alerta</h1>
+            <h2>golpe financeiro</h2>
+            <p>SAIBA COMO SE PREVENIR</p>
+        </div>
+        <div class="imagem-cabecalho">
+            <img width="120" src="https://accamargo.org.br/sites/default/files/2024/10/icon_0.png"alt="logo">
+        </div>
+    </header>
+    <main>
+        <div class="introducao">
+            <h4>Olá, caro(a) paciente/acompanhante:</h4>
+            <p>Golpes financeiros estão cada vez mais comuns e novas modalidades surgem repetidamente. <b>Por isso,
+                    redobre sua atenção ao fazer pagamentos para o A.C.Camargo Cancer Center.</b>
+            </p>
+        </div>
+        <div class="formas-de-pagamento">
+            <h4>Nossas formas de pagamento:</h4>
+            <p><b>Cartão de Crédito: </b> presencial</p>
+            <p><b>Pix: </b> chave única = CNPJ 60.961.968/001-06</p>
+            <p><b>Boleto Bancário: </b>sempre do Itaú (código 341).</p>
+        </div>
+        <div class="banco">
+            <div class="imagem-banco">
+                <img width="450" src="https://accamargo.org.br/sites/default/files/2024/10/boleto.png" alt="imagem-cabecalho">
+            </div>
+            <div class="banco-subtitulo">
+                <h4>Antes de confirmar o pagamento no seu banco, <br> confira novamente nosso CNPJ</h4>
+
+                <div class="banco-botao-cnpj">
+                    <h3><b>60.961.968/0001-06</b></h3>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="acesse-nosso-site">
+            <p>Honorários médicos são pagos diretamente para seu(sua) médico(a), na forma combinada com ele(a). Para
+                conhecer os(as) médicos que fazem parte do nosso corpo Clínico.</p>
+
+            <a class="botao-green" href="https://accamargo.org.br" target="_blank">
+                Acesse nosso site</a>
+
+        </div>
+
+
+        <div class="contatos">
+            <p>Em caso de dúvida, entre em contato conosco: </p>
+            <div>
+                <a class="botao-green">
+                    cobranca@accamargo.org.br</a>
+            </div>
+            <div class="contatos-ramal">
+                <a class="botao-green">
+                    (11) 2189-5010
+                </a>
+                <a class="contatos-ramal-ramais">
+                    <b>
+                        RAMAIS
+                    </b>
+                    <p id="ramais">
+                        2306 - 2307 - 2335 - 2348
+                    </p>
+                </a>
+            </div>
+            <div class="contatos-TBM">
+                <a class="botao-green">
+                    TMB - Empresa parceira
+                </a>
+                <a class="contatos-telefone-whatsapp">
+                    <b>Telefone - (19) 3199-4180</b>
+                    <b>Whatsapp - (82) 99903-7753</b>
+                </a>
+            </div>
+
+        </div>
+    </main>
+    <footer class="rodape">
+        <img width="100%" src="https://accamargo.org.br/sites/default/files/2024/10/footer-2.png" alt="">
+    </footer>
+</body>
+
+
+</html>
