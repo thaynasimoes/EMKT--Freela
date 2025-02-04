@@ -1,11 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+    font-family: Arial, "Raleway";
+    font-weight: 500;
+    font-size: 1rem;
+  
+    --green: #0E5236;
+    --light-green: #D8EBCF;
+    --dark-green: #043936;
+    color: var(--dark-green);
+    overflow-x: hidden;
+
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    margin-bottom: 50px;
+}
+
+
+header{
+    display: flex;
+    gap: 20px ;
+}
+#imagem-header img{
+    width: 100vw;
+    height: 50vh;
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    left: 0;
+ 
+}
+
+main{
+    margin: 360px 50px 30px 50px;
+}
+
+
+
+h1{
+    color: white;
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+#titulo img{
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+
+#titulo {
+    font-size: 13px;
+    position: absolute;
+    top: 50px;
+    padding-left: 30px;
+    margin: 0px 30px;
+}
+
+h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#titulo h3{
+    color: #F2C36B;
+    font-size: 12px ;
+    letter-spacing: 3px;
+}
+
+#main-text p{
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+
+#about-person img{
+    width: 15vw;
+    border-radius: 50%;
+    margin: 10px;
+}
+#about-person{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+#about-person h3{
+    font-size: 10px;
+}
+#about-person p{
+    letter-spacing: 4px;
+    font-size: 7px;
+}
+
+#clinic-info{
+    background-color: var(--dark-green) ;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content:left
+    ;
+    gap:40px;
+}
+
+#clinic-info h2{
+    font-size: 15px;
+}
+
+#clinic-info p{
+    font-size: 7px;
+}
+
+#clinic-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-accamargo img{
+    width: 160px;
+    padding-left: 30px;
+    border-left: 1px solid white;
+}
+
+#contatos-lugares{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#social-info{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin: 5px ;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+}
+.icones img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+
+
+#lugares{
+    margin-top: -80px;
+    margin-right: 20px;
+}
+#lugares img{
+    width: 100px;
+}
+
+footer{
+    margin: 0px 20px;
+}
+
+  </style>
   <title>Document</title>
 </head>
+
 <body>
-  <h1>A vida em primeira pessoa</h1>
+  <header>
+    <div id="imagem-header">
+      <img src="https://i.ibb.co/T6jsSR0/backup-01.png" alt="">
+    </div>
+    <div id="titulo">
+      <img src="https://i.ibb.co/JwHgNBx4/backup-02.png" alt="">
+      <h3>DIA MUNDIAL DO CANCER</h3>
+      <h1><b>A vida em<br>primeira pessoa</b></h1>
+    </div>
+  </header>
+
+<main>
+
+
+  <h4>Olá, colegas.</h4>
+  <div id="main-text">
+    <p>
+      No <b>A.C.Camargo</b> temos um papel muito importante não somente no tratamento do câncer, mas também em sua
+      prevenção. E hoje, no <b>Dia Mundial do Câncer</b>, devemos reafirmar o nosso propósito de trabalhar por um mundo
+      que possa superá-lo.</p>
+    <p>
+      Isso me lembra de diversos encontros que realizamos com Sociedades de diferentes especialidades, sempre com
+      participação dos líderes dos Centros de Referência, nas quais discutimos ações que poderiam ser executadas não
+      apenas no <b>A.C.Camargo</b>, mas em todo o país.</p>
+    <p>
+      Como exemplo, cito o encontro recente com a <b>Sociedade Brasileira de Coloproctologia</b> no qual compartilhamos
+      algumas iniciativas da nossa Instituição, como a realização de um exame de pesquisa de sangue oculto nas fezes,
+      uma
+      suspeita para o câncer colorretal. Isso representa um avanço muito importante para a oncologia.</p>
+    <p>
+      Esta ação simboliza muito bem a nossa sinergia com entidades: ao
+      contribuirmos com cursos, encaminhamento de pacientes para pesquisas e demais ferramentas de controle, colaboramos
+      para o avanço no tratamento dos mais variados tipos de câncer.</p>
+    <p>
+      A pesquisa e a melhoria contínua da oncologia no Brasil é o que nos move. Obrigado por estar conosco nessa jornada
+      e encaminhar seus pacientes para que eles recebam o cuidado inovador de projetos como esse.</p>
+  </div>
+  <div id="about-person">
+    <img src="https://i.ibb.co/PGpZ2Mp3/Foto-Doutor.png" alt="Dr. Antonio Antonietto">
+    <div id="about-texts">
+      <h2><b>Dr. Antonio Antonietto</b></h2>
+      <p><b>DIRETOR MÉDICO DO A.C.CAMARGO CANCER CENTER</b></p>
+    </div>
+  </main>
+  </div>
+  
 </body>
+<footer>
+  <div id="clinic-info">
+    <div id="clinic-texts">
+      <p>O CANCER CENTER DO BRASIL</p>
+      <h2>Você no centro, a<br>ciência do seu lado.</h2>
+    </div>
+    <div id="logo-accamargo">
+      <img src="https://i.ibb.co/JwHgNBx4/backup-02.png" alt="">
+    </div>
+
+  </div>
+  <div id="contatos-lugares">
+
+
+    <div id="social-info">
+      <div class="icones">
+        <img src="https://i.ibb.co/LdQDgWfm/Globe-Icon.png" alt="">
+        <p>
+          accamargo.org.br</p>
+      </div>
+      <div class="icones">
+        <img src="https://i.ibb.co/zhVdYvTH/Instagram-Icon.png" alt="">
+        <p>
+          accamargocancercenter</p>
+      </div>
+    </div>
+
+
+    <div id="lugares">
+      <img src="https://i.ibb.co/JwPCq5k5/logo-lugares.png" alt="">
+    </div>
+
+  </div>
+</footer>
 </html>
