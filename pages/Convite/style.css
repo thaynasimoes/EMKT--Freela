@@ -1,0 +1,133 @@
+:root {
+    font-family: Arial, "Raleway";
+    font-weight: 500;
+    font-size: 1rem;
+  
+    --green: #0E5236;
+    --light-green: #D8EBCF;
+    --dark-green: #043936;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--dark-green);
+}
+.finalizacao a{
+    color: var(--dark-green);
+    background-color: #FFD16C;
+    padding: 7px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+.finalizacao p{
+    margin-top: 30px;
+}
+body {
+    margin-top: 200px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.header-image {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+.logo-verde{
+    width: 170px;
+    position: absolute;
+    right: 25px;
+    top: 100px;
+}
+
+main {
+    padding: 0 1.75rem;
+    padding-bottom: 50px;
+}
+
+.paragrafos {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.paragrafos p {
+    padding-top: 20px;
+}
+
+h4 {
+   
+}
+
+footer {
+    background-color: var(--dark-green);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.fa-linkedin-in,
+.fa-instagram,
+.fa-square-facebook {
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+}
+
+.site {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.site a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.site img{
+    width: 30px;
+}
+
+@media (min-width: 750px){
+    body {
+        margin-top: 300px;
+    }
+}
+
+@media (min-width: 1110px){
+    body {
+        margin-top: 350px;
+    }
+}
+
+@media (min-width: 1200px){
+    body {
+        margin-top: 500px;
+    }
+}
+
