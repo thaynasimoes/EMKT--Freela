@@ -13,33 +13,28 @@
     padding: 0;
     color: var(--dark-green);
 }
-.finalizacao a{
+.link{
     color: var(--dark-green);
     background-color: #FFD16C;
-    padding: 7px;
+    padding: 20px;
     text-align: center;
-    border-radius: 20px;
-    margin: 30px;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 15px;
+    border-radius: 30px;
+    margin: 50px;
+}
+.finalizacao a{
     text-decoration: none;
-    
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-weight: bold;
+
 }
 .finalizacao p{
-    margin-top: 30px;
+    margin-top: 60px;
+    font-size: 18px;
+
 }
 body {
-    margin-top: 200px;
-}
-
-p{
-    font-size: 15px;
+    margin-top: 300px;
 }
 
 .header-image {
@@ -58,22 +53,22 @@ p{
 }
 
 main {
-    padding: 0 1.75rem;
+    padding: 50px;
     padding-bottom: 50px;
 }
 
 .paragrafos {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    line-height: 30px;
 }
 
 .paragrafos p {
     padding-top: 20px;
+    font-size: 18px;
 }
 
-h4 {
-   
-}
+
 
 footer {
     background-color: var(--dark-green);
@@ -81,6 +76,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 40px;
+    height: 70px;
 }
 
 .redes-sociais {
@@ -91,7 +88,8 @@ footer {
 
 .fa-linkedin-in,
 .fa-instagram,
-.fa-square-facebook {
+.fa-square-facebook,
+.fa-youtube {
     font-size: 24px;
     color: white;
     padding: 10px;
@@ -106,12 +104,16 @@ footer {
 
 .site a {
     color: white;
-    padding: 10px;
+    padding: 15px;
     text-decoration: none;
 }
-.site img{
-    width: 30px;
+.white-icon{
+    width: 35px;
 }
+.img-web{
+    width: 20px;
+}
+
 
 @media (min-width: 750px){
     body {
@@ -130,4 +132,12 @@ footer {
         margin-top: 500px;
     }
 }
+
+@media (max-width: 480px){
+    .finalizacao a{
+        word-break: keep-all;
+
+    }
+}
+
 
