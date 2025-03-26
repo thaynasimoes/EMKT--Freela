@@ -1,0 +1,152 @@
+:root {
+    font-family: Arial, "Raleway";
+    font-weight: 500;
+    font-size: 1rem;
+  
+    --green: #0E5236;
+    --light-green: #D8EBCF;
+    --dark-green: #043936;
+    color: var(--dark-green);
+    overflow-x: hidden;
+
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+main{
+    margin: 60px;
+
+}
+
+h2{
+    font-size: 30px;
+}
+
+.paragrafos-principais p{
+    font-size: 17px;
+    margin-top: 45px
+}
+
+.exames{
+    margin-top: 60px;
+}
+.tipos-exames{
+    margin-top: 30px;
+}
+.exame{
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.exame p{
+    margin-left: 15px;
+}
+
+.paragrafo-exames{
+    margin-top: 50px;
+}
+
+button{
+    background-color: #F2BA52;
+    border: none;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px ;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #043936;
+}
+
+.contato-acessoria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contato-acessoria p{
+    text-align: left;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.parceria{
+    position: absolute;
+    top: 1260px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    }
+
+.texto{
+    width: 40%;
+}
+.texto p{
+    color: white;
+    margin-top: 20px;
+}
+
+.parceria h2{
+    color: #F2BA52;
+}
+
+.textos-contato-parceria{
+    color: white; 
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.textos-contato-parceria p{
+    padding-left: 10px;
+}
+
+.white-rectangle{
+    position: absolute;
+    right: 45%;
+    top: 1500px;
+}
+.ensino-pesquisa{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 1550px;
+    margin: 40px;
+    margin-right: 60px;
+}
+.texto-ensino{
+    width: 60%;
+}
+.texto-ensino p{
+    margin-top: 15px;
+}
+.img-qrcode{
+    margin-left: 150px;
+}
+.ensino-pesquisa h2{
+    color: #F2BA52;
+}
+
+.img-qrcode{
+    width: 100px;
+}
+.contatos-footer{
+    position: absolute;
+    top: 1650px;
+}
+.links img{
+    width: 5000px;
+}
+
+
+
+
