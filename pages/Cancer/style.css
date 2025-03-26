@@ -15,6 +15,10 @@
     padding: 0;
   }
 
+.header-img{
+    width: 100%;
+}
+
 main{
     margin: 60px;
 
@@ -28,6 +32,27 @@ h2{
     font-size: 17px;
     margin-top: 45px
 }
+
+.cards{
+    margin-top: 60px;
+}
+
+.fatores-risco{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.cards-p{
+    display: flex;
+}
+
 
 .exames{
     margin-top: 60px;
@@ -80,7 +105,7 @@ button{
 
 .parceria{
     position: absolute;
-    top: 1260px;
+    top: 1800px;
     display: flex;
     justify-content: space-between;
     margin: 40px;
@@ -112,14 +137,14 @@ button{
 .white-rectangle{
     position: absolute;
     right: 45%;
-    top: 1500px;
+    top: 2500px;
 }
 .ensino-pesquisa{
     color: white;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 1550px;
+    top: 2050px;
     margin: 40px;
     margin-right: 60px;
 }
