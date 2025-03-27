@@ -7,21 +7,62 @@
     --light-green: #D8EBCF;
     --dark-green: #043936;
     color: var(--dark-green);
-    overflow-x: hidden;
-
+  
   }
   * {
     margin: 0;
     padding: 0;
   }
 
-.header-img{
+html, body{
+    overflow-x: hidden;
+}
+body{
+    position: relative
+}
+.header-logo{
+    background-color: #043936;
+    display: flex;
+    justify-content: center;
+}
+.header-logo img{
+    width: 700px;
+}
+
+.header-header{
+    background-image: url("https://i.postimg.cc/DfrXkSgK/Design-sem-nome.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 738px;
     width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+
+
+}
+
+.header-textos{
+    width: 60%;
+    margin-left: 30px;
+    padding-bottom: 30px;
+
+}
+.header-textos h1{
+    color: white;
+    margin-top: 15px;
+}
+
+.header-textos p{
+    background-color: #F2BA52;
+    display: inline;
+    font-size: 9px;
+    padding: 3px;
+    border-radius: 5%;
+    letter-spacing: 2px;
 }
 
 main{
     margin: 60px;
-
 }
 
 h2{
@@ -37,9 +78,10 @@ h2{
     margin-top: 60px;
 }
 
-.fatores-risco{
+.card-principal{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .cards-img{
@@ -51,6 +93,16 @@ h2{
 
 .cards-p{
     display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.cards-p img{
+    width: 15px;
+    height: 15px;
+}
+.cards-p p{
+    margin-left: 10px;
 }
 
 
@@ -69,6 +121,10 @@ h2{
 .exame p{
     margin-left: 15px;
 }
+.exame img{
+    width: 15px;
+    height: 15px;
+}
 
 .paragrafo-exames{
     margin-top: 50px;
@@ -83,7 +139,7 @@ button{
     border-radius: 20px;
     margin-top: 30px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     color: #043936;
 }
 
@@ -104,11 +160,11 @@ button{
 }
 
 .parceria{
-    position: absolute;
-    top: 1800px;
+
     display: flex;
     justify-content: space-between;
     margin: 40px;
+    align-items:last baseline;
     }
 
 .texto{
@@ -128,6 +184,7 @@ button{
     display: flex;
     align-items: center;
     margin-top: 10px;
+    justify-content: ce;
 
 }
 .textos-contato-parceria p{
@@ -135,18 +192,17 @@ button{
 }
 
 .white-rectangle{
-    position: absolute;
-    right: 45%;
-    top: 2500px;
+
+    width: 200px;
 }
 .ensino-pesquisa{
     color: white;
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    top: 2050px;
     margin: 40px;
     margin-right: 60px;
+    padding-bottom: 170px;
+
 }
 .texto-ensino{
     width: 60%;
@@ -168,9 +224,58 @@ button{
     position: absolute;
     top: 1650px;
 }
-.links img{
-    width: 5000px;
+
+
+footer{
+    background-image: url("https://accamargo.org.br/sites/default/files/2025/03/rodape.png");
+    height: 757px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
+@media(min-width: 1244px){
+    .ensino-pesquisa{
+        padding-bottom: 90px;
+    
+    }
+
+}
+@media(max-width: 600px){
+    .parceria h2{
+        font-size: 15px;
+    }
+    .parceria img{
+        width: 20px;
+    }
+    .parceria p{
+        font-size: 12px;
+    }
+    .ensino-pesquisa h2{
+        font-size: 15px;
+
+    }
+    .ensino-pesquisa p{
+        font-size: 12px;
+
+    }
+    .header-textos h1{
+        font-size: 25px;
+    }
+   
+    .img-card{
+        width: 90px ;
+    }
+    .cards h3{
+        font-size: 15px;
+    }
+}
+
 
 
 
